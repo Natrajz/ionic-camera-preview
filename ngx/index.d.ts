@@ -183,7 +183,7 @@ export declare class CameraPreview extends IonicNativePlugin {
      * Stops the camera preview instance. (iOS & Android)
      * @return {Promise<any>}
      */
-    stopRecordVideo(): Promise<any>;
+    stopRecordVideo(success, error): Promise<any>;
     /**
      * Switch from the rear camera and front camera, if available.
      * @return {Promise<any>}
